@@ -6,16 +6,16 @@ public class Paddle {
     int width = 10;
 
     public Paddle(int x, int y, int width) {
-        this.x = x;
-        this.y = y;
-        this.width = width;
+        this.x = 5;
+        this.y = 5;
+        this.width = 10;
     }
 
-    public void moveUp(int x, int y) {
+    public void moveUp() {
         y = y - 1;
     }
 
-    public void moveDown(int x, int y) {
+    public void moveDown() {
         y = y + 1;
     }
 
